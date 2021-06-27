@@ -44,3 +44,21 @@ Route::get('/deleteTeacher/{short_name}', 'TeacherController@delete_teacher');
 Route::post('/update_teacher/{short_name}','TeacherController@update_teacher');
 Route::get('/uploadTeacherCSV', 'TeacherController@upload_teacher_csv');
 Route::post('/store_teacher_data','TeacherController@store_teacher_data');
+
+//Frontend Routes---------------------------------------------------------------
+Route::get('/edit_profile', 'FrontendController@editProfile');
+Route::get('/courseSelection', 'FrontendController@course_selection');
+Route::get('/currentCourse', 'FrontendController@current_course');
+Route::get('/primary_selection/{course_code}', 'FrontendController@primary_course_selection');
+Route::get('/release_course/{course_code}', 'FrontendController@release_course');
+Route::get('/level_1_courses', 'FrontendController@level_1_courses');
+Route::get('/level_2_courses', 'FrontendController@level_2_courses');
+Route::get('/level_3_courses', 'FrontendController@level_3_courses');
+Route::get('/level_4_courses', 'FrontendController@level_4_courses');
+
+//logout
+Route::get('/user_logout', 'FrontendController@user_logout');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

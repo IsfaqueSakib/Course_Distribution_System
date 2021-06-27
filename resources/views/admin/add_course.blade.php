@@ -60,6 +60,25 @@
 							</div>
 
 							<div class="control-group">
+								<label class="control-label" for="selectError3">Semester</label>
+								<div class="controls">
+									<select id="selectError3" name="semester">
+										<option>Select Duration</option>
+												 <option value="1/1">1st Year : 1st Semester</option>
+												 <option value="1/2">1st Year : 2nd Semester</option>
+												 <option value="2/2">2nd Year : 1st Semester</option>
+												 <option value="3/1">2nd Year : 2nd Semester</option>
+												 <option value="3/2">3rd Year : 1st Semester</option>
+												 <option value="4/1">3rd Year : 2nd Semester</option>
+												 <option value="4/2">4th Year : 1st Semester</option>
+												 <option value="4/1">4th Year : 2nd Semester</option>
+								</select>
+
+								<!-- <input type="text" class="input-xlarge" name="course_duration" required=""> -->
+								</div>
+							</div>
+
+							<div class="control-group">
 							  <label class="control-label" for="selectError3">Course Duration</label>
 							  <div class="controls">
 									<select id="selectError3" name="course_duration">
@@ -72,12 +91,12 @@
 							  </div>
 							</div>
 
-							<div class="control-group">
+						<!--	<div class="control-group">
 							  <label class="control-label" for="date01">Assigned Teacher</label>
 							  <div class="controls">
 								<input type="text" class="input-xlarge" name="assigned_teacher" required="">
 							  </div>
-							</div>
+							</div> -->
 
               <div class="control-group hidden-phone">
                 <label class="control-label" for="textarea2">Course Status</label>

@@ -76,9 +76,9 @@
 										<i class="halflings-icon white edit"></i>
 									</a>
 
-									<a class="btn btn-danger" href="{{URL::to('/deleteTeacher/'.$v_teacher->short_name)}}" id="delete">
+								<!--	<a class="btn btn-danger" href="{{URL::to('/deleteTeacher/'.$v_teacher->short_name)}}" id="delete">
 										<i class="halflings-icon white trash"></i>
-									</a>
+									</a> -->
 								</td>
 							</tr>
 

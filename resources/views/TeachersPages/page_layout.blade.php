@@ -6,7 +6,7 @@
 
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>Admin CSE SUST</title>
+	<title>Metro Admin Template - Metro UI Style Bootstrap Admin Template</title>
 	<meta name="description" content="Metro Admin Template.">
 	<meta name="author" content="Łukasz Holeczek">
 	<meta name="keyword" content="Metro, Metro UI, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
@@ -73,10 +73,10 @@
 								<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu">
-							<!--	<li class="dropdown-menu-title">
+								<li class="dropdown-menu-title">
  									<span>Account Settings</span>
 								</li>
-								<li><a href="#"><i class="halflings-icon user"></i> Profile</a></li> -->
+								<li><a href="#"><i class="halflings-icon user"></i> Profile</a></li>
 								<li><a href="{{URL::to('/logout')}}"><i class="halflings-icon off"></i> Logout</a></li>
 							</ul>
 						</li>
@@ -117,7 +117,7 @@
 							</ul>
 						</li>
 
-					<!--	<li>
+						<li>
 							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Slider</span></a>
 							<ul>
 								<li><a class="submenu" href="{{URL::to('/addSlider')}}"><i class="icon-file-alt"></i><span class="hidden-tablet"> Add Slider</span></a></li>
@@ -126,7 +126,7 @@
 						</li>
 
 
-						<li><a href="{{URL::to('/manage_order')}}"><i class="icon-list-alt"></i><span class="hidden-tablet">Manage Course</span></a></li> -->
+						<li><a href="{{URL::to('/manage_order')}}"><i class="icon-list-alt"></i><span class="hidden-tablet">Manage Course</span></a></li>
 						<!-- <li><a href="typography.html"><i class="icon-font"></i><span class="hidden-tablet"> Shop Name</span></a></li> -->
 						<!--<li><a href="{{URL::to('/set_charges')}}"><i class="icon-picture"></i><span class="hidden-tablet"> Charges</span></a></li> -->
 

@@ -66,8 +66,9 @@ class CourseController extends Controller
            $course_data['course_title']=$data['course_title'];
            $course_data['course_type']=$data['course_type'];
            $course_data['credit']=(float)$data['credit'];
+           $course_data['semester']=(float)$data['semester'];
            $course_data['course_duration']=$data['course_duration'];
-           $course_data['assigned_teacher']=$data['assigned_teacher'];
+           //$course_data['assigned_teacher']=$data['assigned_teacher'];
            $course_data['course_status']=(integer)$data['course_status'];
 
            DB::table('course_tbl')->insert($course_data);
@@ -84,8 +85,9 @@ class CourseController extends Controller
         $data['course_title']=$request->course_title;
         $data['course_type']=$request->course_type;
         $data['credit']=$request->credit;
+        $data['semester']=$request->semester;
         $data['course_duration']=$request->course_duration;
-        $data['assigned_teacher']=$request->assigned_teacher;
+      //  $data['assigned_teacher']=$request->assigned_teacher;
         $data['course_status']=$request->course_status;
 
         DB::table('course_tbl')->insert($data);
@@ -148,6 +150,7 @@ class CourseController extends Controller
         $data['course_title']=$request->course_title;
         $data['course_type']=$request->course_type;
         $data['credit']=$request->credit;
+        $data['semester']=$request->semester;
         $data['course_duration']=$request->course_duration;
         $data['assigned_teacher']=$request->assigned_teacher;
 
